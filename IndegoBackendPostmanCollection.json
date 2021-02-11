@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "b2271932-ffef-42a5-a399-4f6da93af3f8",
+		"name": "IndegoBackend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CronData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2MTI5NDI3MjksImV4cCI6MTY0Njg5NzkyOSwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSJ9.9rnM7tjZ4HRFt2JgV1Y8mDvwhqnq3A-KDTQwpq26L9Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://indego-backend-project.herokuapp.com/v1/indego-data-fetch-and-store-it-db",
+					"protocol": "https",
+					"host": [
+						"indego-backend-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"indego-data-fetch-and-store-it-db"
+					]
+				},
+				"description": "Collect data from indego and openweather api and insert into database"
+			},
+			"response": []
+		},
+		{
+			"name": "Get data for a specifc time",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2MTI4MTQxMDEsImV4cCI6MTY0NDQzNjUwMSwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJSb2xlIjpbIk1hbmFnZXIiLCJQcm9qZWN0IEFkbWluaXN0cmF0b3IiXX0.nJigRwtSoL1efAh6XNdBRHHFiGhieBrFCRubBTW7kA8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://indego-backend-project.herokuapp.com/v1/stations?at=2021-02-10T10:11:49",
+					"protocol": "https",
+					"host": [
+						"indego-backend-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"stations"
+					],
+					"query": [
+						{
+							"key": "at",
+							"value": "2021-02-10T10:11:49"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get data for a specifc time and kioskId",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2MTI4MTQxMDEsImV4cCI6MTY0NDQzNjUwMSwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJSb2xlIjpbIk1hbmFnZXIiLCJQcm9qZWN0IEFkbWluaXN0cmF0b3IiXX0.nJigRwtSoL1efAh6XNdBRHHFiGhieBrFCRubBTW7kA8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://indego-backend-project.herokuapp.com/v1/stations/3005?at=2021-02-10T10:11:49",
+					"protocol": "https",
+					"host": [
+						"indego-backend-project",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"v1",
+						"stations",
+						"3005"
+					],
+					"query": [
+						{
+							"key": "at",
+							"value": "2021-02-10T10:11:49"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
