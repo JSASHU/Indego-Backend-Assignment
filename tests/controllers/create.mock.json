@@ -1,0 +1,331 @@
+{
+  "data": [
+    {
+      "geometry": {
+        "coordinates": [
+          -75.16374,
+          39.95378
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 3004,
+        "name": "Municipal Services Building Plaza",
+        "coordinates": [
+          -75.16374,
+          39.95378
+        ],
+        "totalDocks": 30,
+        "docksAvailable": 25,
+        "bikesAvailable": 5,
+        "classicBikesAvailable": 5,
+        "smartBikesAvailable": 0,
+        "electricBikesAvailable": 0,
+        "rewardBikesAvailable": 5,
+        "rewardDocksAvailable": 25,
+        "kioskStatus": "FullService",
+        "kioskPublicStatus": "Active",
+        "kioskConnectionStatus": "Active",
+        "kioskType": 1,
+        "addressStreet": "1401 John F. Kennedy Blvd.",
+        "addressCity": "Philadelphia",
+        "addressState": "PA",
+        "addressZipCode": "19102",
+        "bikes": [
+          {
+            "dockNumber": 15,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 25,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 26,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 27,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 30,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          }
+        ],
+        "closeTime": null,
+        "eventEnd": null,
+        "eventStart": null,
+        "isEventBased": false,
+        "isVirtual": false,
+        "kioskId": 3004,
+        "notes": null,
+        "openTime": null,
+        "publicText": "",
+        "timeZone": null,
+        "trikesAvailable": 0,
+        "latitude": 39.95378,
+        "longitude": -75.16374
+      },
+      "type": "Test"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.14403,
+          39.94733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 3005,
+        "name": "Welcome Park, NPS",
+        "coordinates": [
+          -75.14403,
+          39.94733
+        ],
+        "totalDocks": 13,
+        "docksAvailable": 4,
+        "bikesAvailable": 9,
+        "classicBikesAvailable": 9,
+        "smartBikesAvailable": 0,
+        "electricBikesAvailable": 0,
+        "rewardBikesAvailable": 9,
+        "rewardDocksAvailable": 4,
+        "kioskStatus": "FullService",
+        "kioskPublicStatus": "Active",
+        "kioskConnectionStatus": "Active",
+        "kioskType": 1,
+        "addressStreet": "191 S. 2nd St.",
+        "addressCity": "Philadelphia",
+        "addressState": "PA",
+        "addressZipCode": "19106",
+        "bikes": [
+          {
+            "dockNumber": 1,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 3,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 4,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 6,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 7,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 8,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 10,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 12,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 13,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          }
+        ],
+        "closeTime": null,
+        "eventEnd": null,
+        "eventStart": null,
+        "isEventBased": false,
+        "isVirtual": false,
+        "kioskId": 3005,
+        "notes": null,
+        "openTime": null,
+        "publicText": "",
+        "timeZone": null,
+        "trikesAvailable": 0,
+        "latitude": 39.94733,
+        "longitude": -75.14403
+      },
+      "type": "Test"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.20311,
+          39.9522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 3006,
+        "name": "40th & Spruce",
+        "coordinates": [
+          -75.20311,
+          39.9522
+        ],
+        "totalDocks": 17,
+        "docksAvailable": 9,
+        "bikesAvailable": 8,
+        "classicBikesAvailable": 5,
+        "smartBikesAvailable": 0,
+        "electricBikesAvailable": 3,
+        "rewardBikesAvailable": 8,
+        "rewardDocksAvailable": 9,
+        "kioskStatus": "FullService",
+        "kioskPublicStatus": "Unavailable",
+        "kioskConnectionStatus": "Unresponsive",
+        "kioskType": 1,
+        "addressStreet": "246 S. 40th St.",
+        "addressCity": "Philadelphia",
+        "addressState": "PA",
+        "addressZipCode": "19104",
+        "bikes": [
+          {
+            "dockNumber": 2,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 3,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 11,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 12,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 14,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 15,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 16,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          },
+          {
+            "dockNumber": 17,
+            "isElectric": false,
+            "isAvailable": true,
+            "battery": null
+          }
+        ],
+        "closeTime": null,
+        "eventEnd": null,
+        "eventStart": null,
+        "isEventBased": false,
+        "isVirtual": false,
+        "kioskId": 3006,
+        "notes": null,
+        "openTime": null,
+        "publicText": "",
+        "timeZone": null,
+        "trikesAvailable": 0,
+        "latitude": 39.9522,
+        "longitude": -75.20311
+      },
+      "type": "Test"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.15993,
+          39.94517
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "id": 3007,
+        "name": "11th & Pine, Kahn Park",
+        "coordinates": [
+          -75.15993,
+          39.94517
+        ],
+        "totalDocks": 20,
+        "docksAvailable": 20,
+        "bikesAvailable": 0,
+        "classicBikesAvailable": 0,
+        "smartBikesAvailable": 0,
+        "electricBikesAvailable": 0,
+        "rewardBikesAvailable": 0,
+        "rewardDocksAvailable": 20,
+        "kioskStatus": "FullService",
+        "kioskPublicStatus": "Active",
+        "kioskConnectionStatus": "Active",
+        "kioskType": 1,
+        "addressStreet": "328 S. 11th St.",
+        "addressCity": "Philadelphia",
+        "addressState": "PA",
+        "addressZipCode": "19107",
+        "bikes": [],
+        "closeTime": null,
+        "eventEnd": null,
+        "eventStart": null,
+        "isEventBased": false,
+        "isVirtual": false,
+        "kioskId": 3007,
+        "notes": null,
+        "openTime": null,
+        "publicText": "",
+        "timeZone": null,
+        "trikesAvailable": 0,
+        "latitude": 39.94517,
+        "longitude": -75.15993
+      },
+      "type": "Test"
+    }
+  ]
+}
