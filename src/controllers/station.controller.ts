@@ -35,6 +35,8 @@ export default class StationController {
         $gte: at,
       },
     })
+      .sort({ at: 1 })
+      .limit(144)
       .lean<Station[]>()
       .exec();
   }
